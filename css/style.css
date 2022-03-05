@@ -98,6 +98,9 @@ img{
     font-size: 1.5rem;
     background-repeat: no-repeat;
 }
+.premiere{
+    size: 20%;
+}
 main section{
     font-size: 2rem;
     margin: 2rem auto;
@@ -127,6 +130,7 @@ main section p{
     border: 1rem;
     color: #e6e3f5;
     height: auto;
+
 }
 main section figure figcaption{
     font-size: 1.9rem;
@@ -150,10 +154,11 @@ main section figure figcaption img{
     
 }
 main section figure figcaption img:hover{
-    width: 14rem;
-    height: 14rem;
+    width: 11rem;
+    height: 11rem;
     transition: 0.4s;
 }
+
 main section ul{
     font-size: 1.9rem;
     padding: 4rem 0 1rem 3.5rem;
@@ -163,6 +168,18 @@ main section ul{
     height: 30vh;
     vertical-align: middle;
 }
+main section ul li a{
+    text-decoration: underline;
+    color: #e6e3f5;
+    transition: 0.4s;
+}
+
+main section ul li a:hover{
+    transition: 0.4s;
+    text-decoration: none;
+    color: #7289DA;
+}
+
 footer{
     text-align: center;
     color: #e6e3f5;
