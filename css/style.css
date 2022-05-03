@@ -218,6 +218,23 @@ main section ul li .youtube:hover{
     text-decoration: none;
     color: #ff0000;
 }
+main section .diplome li{
+    padding-bottom: ;
+}
+main section .diplome li h3 a{
+    text-decoration: underline;
+    color: #e6e3f5;
+    transition: all ease-in-out 500ms;
+}
+main section .diplome li h3 a:hover{
+    text-decoration: none;
+    color: #7289DA;
+}
+iframe{
+    width: 50%;
+    height: 28vh;
+    border: none;
+}
 footer{
     text-align: center;
     color: #e6e3f5;
@@ -284,8 +301,8 @@ footer p{
        height: 100%;
    }
    iframe{
-       width: 80%;
-       height: 100%;
+    width: 50%;
+    height: 20vh;
    }
    nav ul{
     margin: 0 auto 2rem;
