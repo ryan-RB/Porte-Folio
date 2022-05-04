@@ -97,13 +97,13 @@ h1:hover{
 .welcome{
     text-align: center;
     color: #e6e3f5;
-    font-size: 5rem;
+    font-size: 5.2rem;
     max-width: 90rem;
     margin: 5rem auto 6rem;
     transition: all ease-in-out 500ms;
 }
 .welcome:hover{
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.1rem;
     color: #7289DA;
 }
 img{
@@ -156,10 +156,14 @@ main section p{
     font-size: 2rem;
     padding: 4rem 3rem 5rem 3.5rem;
     background-color: #2C2F33;
-    border: 1rem;
+    border: 10rem;
     color: #e6e3f5;
     height: auto;
+    transition: all ease-in-out 500ms;
 
+}
+main section p:hover{
+    background-color: #23272a;
 }
 main section figure figcaption{
     font-size: 1.9rem;
@@ -218,9 +222,7 @@ main section ul li .youtube:hover{
     text-decoration: none;
     color: #ff0000;
 }
-main section .diplome li{
-    padding-bottom: ;
-}
+
 main section .diplome li h3 a{
     text-decoration: underline;
     color: #e6e3f5;
