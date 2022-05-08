@@ -123,6 +123,15 @@ main section{
     border: 5rem;
     height: auto;
 }
+main .contact .link li a{
+    text-decoration: underline;
+    color: #e6e3f5;
+    transition: all ease-in-out 200ms;
+}
+main .contact .link li a:hover{
+    text-decoration: none;
+    color: #7289DA;
+}
 main .loisirs ul li{
     margin-bottom: 1rem;
 }
